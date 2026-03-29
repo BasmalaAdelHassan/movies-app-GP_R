@@ -1,2 +1,16 @@
-# movies-app-GP_R
-A high-fidelity, dark-themed movie discovery and streaming UI. Features a comprehensive 7-step onboarding flow, immersive movie details with parallax effects, user authentication, and personalized watchlists. Built with a focus on sleek UX and cinematic aesthetics.
+# movies_app
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
