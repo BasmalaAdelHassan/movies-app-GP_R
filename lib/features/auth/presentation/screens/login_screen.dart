@@ -8,6 +8,7 @@ import '../../../../core/widgets/app_text_form_field.dart';
 import '../../../../core/localization/locale_bloc.dart';
 import '../../../../core/localization/locale_event.dart';
 import '../../../../core/localization/locale_state.dart';
+import '../../../../home/home_screen.dart';
 import '../bloc/auth_bloc.dart';
 import '../bloc/auth_event.dart';
 import '../bloc/auth_state.dart';
@@ -36,6 +37,12 @@ class LoginScreen extends StatelessWidget {
               if (state is AuthSuccessState) {
                 ScaffoldMessenger.of(context).showSnackBar(
                   const SnackBar(content: Text('Login Success!'), backgroundColor: Colors.green),
+                );
+                Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => HomeScreen(),
+                  ),
                 );
               } else if (state is AuthErrorState) {
                 ScaffoldMessenger.of(context).showSnackBar(
