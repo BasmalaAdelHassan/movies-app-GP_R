@@ -27,4 +27,20 @@ class AppAssets {
   static const String watchNowImage = 'assets/images/watch_now.png';
 
   static const String availableNowImage = 'assets/images/available_now.png';
+
+  static const String arrowBackIcon = 'assets/images/arrow_back_icon.png';
+
+  static const String favoriteIcon = 'assets/images/favorite_icon.png';
+
+  static const String timeIcon = 'assets/images/time_icon.png';
+
+  static const String starIcon = 'assets/images/star_icon.png';
+
+  static const String playIcon = 'assets/images/play_icon.png';
+
+  static const String avatarImage = 'assets/images/avatar_image.png';
+
+  static const String exitIcon = 'assets/images/exit_icon.png';
+
+  static const String historyIcon = 'assets/images/history_icon.png';
 }

@@ -45,4 +45,24 @@ class AppStyles {
     color: AppColors.yellowColor,
     fontWeight: FontWeight.w400,
   );
+  static TextStyle robotoBold24White = GoogleFonts.roboto(
+    fontSize: 24,
+    color: AppColors.whiteColor,
+    fontWeight: FontWeight.bold,
+  );
+  static TextStyle robotoBold20White = GoogleFonts.roboto(
+    fontSize: 20,
+    color: AppColors.whiteColor,
+    fontWeight: FontWeight.bold,
+  );
+  static TextStyle robotoRegular16White = GoogleFonts.roboto(
+    fontSize: 16,
+    color: AppColors.whiteColor,
+    fontWeight: FontWeight.w400,
+  );
+  static TextStyle robotoBold36White = GoogleFonts.roboto(
+    fontSize: 36,
+    color: AppColors.whiteColor,
+    fontWeight: FontWeight.bold,
+  );
 }
